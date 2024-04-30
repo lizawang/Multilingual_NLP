@@ -1,7 +1,7 @@
 ### Tree translation, from cz to sk
 Upload the translated_sk.conllu first. Somehow training of the parser takes extremely long and I cannot find the problem.
 
-### Okay, nvm, the .conllu file is also too large to upload here.
+### Okay, nvm, the translated_sk.conllu file is also too large (111 MB) to upload here.
 
 
 
