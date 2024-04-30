@@ -2,3 +2,18 @@
 Upload the translated_sk.conllu first. Somehow training of the parser takes extremely long and I cannot find the problem.
 
 ### Okay, nvm, the .conllu file is also too large to upload here.
+
+
+
+### Okay, so it's 2:45, 30th April Tuesday, the 10 iteration finally finished!!
+# The result:
+ ../assignment03/udpipe --parse --accuracy out.model < sk-ud-predPos-dev.conllu
+Loading UDPipe model: done.
+Parsing from gold tokenization with gold tags - forms: 12440, UAS: 65.51%, LAS: 54.12%
+
+# I also test it on testset from UD:
+../assignment03/udpipe --parse --accuracy out.model < sk_snk-ud-test.conllu
+Loading UDPipe model: done.
+Parsing from gold tokenization with gold tags - forms: 12736, UAS: 69.94%, LAS: 52.69%
+
+
